@@ -1,10 +1,10 @@
 # Project EEEEE: Molecular Property Calculator
-[cite_start]**Advanced Quantum Chemistry (2302638) Capstone Project** **Chulalongkorn University, Semester 2/2025** [cite: 3, 5, 6]
+**Advanced Quantum Chemistry (2302638) Capstone Project** **Chulalongkorn University, Semester 2/2025**
 
 ## Project Overview
-[cite_start]This project focuses on the implementation of a **Molecular Property Calculator**[cite: 10, 22]. [cite_start]The goal is to demonstrate mastery of the Hartree-Fock computational pipeline by implementing an RHF SCF loop and using the resulting converged density matrix to extract physical quantities and energy components[cite: 8, 158].
+This project focuses on the implementation of a **Molecular Property Calculator**. The goal is to demonstrate mastery of the Hartree-Fock computational pipeline by implementing an RHF SCF loop and using the resulting converged density matrix to extract physical quantities and energy components.
 
-## [cite_start]Repository Structure [cite: 203]
+## Repository Structure 
 * `src/`: Contains the core Python implementation and unit tests.
     * `main.py`: Core RHF SCF and property calculation implementation.
     * `test_*.py`: Unit tests (minimum 3 tests per core function).
@@ -13,7 +13,7 @@
 * `requirements.txt`: Python dependencies (NumPy, SciPy, PySCF).
 * `README.md`: Project description and instructions.
 
-## [cite_start]Implemented Features [cite: 159]
+## Implemented Features
 In accordance with the requirements for Project E, the following components are implemented from scratch:
 * **RHF SCF Loop**: Full implementation of Algorithm 6.1.
 * **Energy Decomposition**: Calculation of $E_1$, $E_J$, $E_K$, and $E_{nuc}$.
