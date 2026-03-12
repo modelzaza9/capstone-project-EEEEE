@@ -1,5 +1,6 @@
 # Project EEEEE: Molecular Property Calculator
-**Advanced Quantum Chemistry (2302638) Capstone Project** **Chulalongkorn University, Semester 2/2025**
+**Advanced Quantum Chemistry (2302638) Capstone Project** 
+**Chulalongkorn University, Semester 2/2025**
 
 ## Project Overview
 This project focuses on the implementation of a **Molecular Property Calculator**. The goal is to demonstrate mastery of the Hartree-Fock computational pipeline by implementing an RHF SCF loop and using the resulting converged density matrix to extract physical quantities and energy components.
