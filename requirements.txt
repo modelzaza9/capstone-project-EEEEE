@@ -1,1 +1,13 @@
+# Project EEEEE - Advanced Quantum Chemistry
+# 2302638 Advanced Quantum Chemistry
+# Chulalongkorn University
 
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Quantum chemistry
+pyscf>=2.3.0
+
+# Visualization
+matplotlib>=3.7.0
