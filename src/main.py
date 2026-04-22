@@ -406,13 +406,16 @@ for mol, name in [
     mulliken_population(mol, P, S)
 
 # =========================================
-# (iv) Virial theorem
+# (v) Virial theorem
 # =========================================
 
 print("\n--- Virial Check (H2O / cc-pVDZ) ---")
 
+P, F, E_tot, J, K, eps, n_occ, h_core, S = rhf_scf(mol_H2O_ccpvdz)
+
 T = mol_H2O_ccpvdz.intor('int1e_kin')
 V = mol_H2O_ccpvdz.intor('int1e_nuc')
+
 virial_ratio(mol_H2O_ccpvdz, P, T, V, J, K)
 
 print("\n==============================")
