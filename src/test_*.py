@@ -1,7 +1,7 @@
 import numpy as np
 from pyscf import gto, scf
 
-def rhf_scf(mol, max_iter=500, tol=1e-10, debug = True):
+def rhf_scf(mol, max_iter=500, tol=1e-10, debug = True, damping_number = 0.1):
     import numpy as np
 
     # --- Basic quantities ---
@@ -85,7 +85,7 @@ def rhf_scf(mol, max_iter=500, tol=1e-10, debug = True):
         '''
         # adaptive_damping
         if E_tot > E_old or progress < 0:
-            alpha = min(1 , 0.30 + 0.10 * log_residual)
+            alpha = min(1 , 0.30 + damping_number * log_residual)
         else:
             alpha = 1
         P_mixed = alpha * P_new + (1.0 - alpha) * P
