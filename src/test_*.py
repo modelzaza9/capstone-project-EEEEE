@@ -1,6 +1,5 @@
 import numpy as np
 from pyscf import gto, scf
-import matplotlib.pyplot as plt
 
 def rhf_scf(mol, max_iter=500, tol=1e-10, debug = True):
     import numpy as np
